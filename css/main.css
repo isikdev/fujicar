@@ -8,7 +8,7 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
+} 
 
 .btn__order {
   background-color: #F0544F;
@@ -92,14 +92,14 @@ body {
 .info__price-old {
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
   text-decoration: line-through;
   text-decoration-color: #ffaa05;
 }
 .info__price-new {
   margin-left: 10px;
   font-size: 65px;
-  color: #fff;
+  color: #000;
 }
 .info__order {
   margin-top: 30px;
@@ -536,5 +536,10 @@ body {
   .android__programm-list {
     flex-direction: column;
     text-align: left;
+  }
+}
+@media screen and (max-width: 330px) {
+  .advantages__card-item {
+    max-width: 47%;
   }
 }
